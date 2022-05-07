@@ -1,0 +1,15 @@
+[0;1;32m●[0m mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Sun 2022-04-03 23:46:54 CST; 1h 54min ago
+       Docs: man:mysqld(8)
+             http://dev.mysql.com/doc/refman/en/using-systemd.html
+    Process: 827 ExecStartPre=/usr/share/mysql-8.0/mysql-systemd-start pre (code=exited, status=0/SUCCESS)
+   Main PID: 959 (mysqld)
+     Status: "Server is operational"
+      Tasks: 38 (limit: 4584)
+     Memory: 171.8M
+     CGroup: /system.slice/mysql.service
+             └─959 /usr/sbin/mysqld
+
+4月 03 23:46:36 ubuntu systemd[1]: Starting MySQL Community Server...
+4月 03 23:46:54 ubuntu systemd[1]: Started MySQL Community Server.
